@@ -1,0 +1,117 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("/images/bg-pattern-top-desktop.svg");
+}
+
+.sub-container-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stars {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border-radius: 25px;
+}
+
+.stars p {
+  color: hsl(300, 43%, 22%);
+  padding-left: 0.8rem;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: bolder;
+}
+
+.stars p {
+  margin: 0;
+}
+
+.A {
+  width: 50%;
+}
+
+.B {
+  display: flex;
+  justify-content: center;
+}
+
+.customers {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.customers p {
+  text-align: center;
+}
+
+.customers .photos {
+  display: flex;
+}
+
+.photos img {
+  border-radius: 10rem;
+  padding-bottom: 1.5rem;
+}
+
+.photos p {
+  padding-left: 1.5rem;
+}
+
+.sub-container-two {
+  display: flex;
+}
+
+@media (max-width: 770px) {
+  body {
+    margin-bottom: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .sub-container-two {
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .A {
+    width: 100%;
+  }
+
+  .sub-container-one {
+    flex-direction: column;
+  }
+
+  .stars {
+    flex-direction: column;
+  }
+
+  .stars p {
+    padding: 0;
+  }
+
+  .customers {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 770px) {
+  body {
+    margin: 0.76rem 5rem 5rem 5rem;
+    padding: 0.76rem 5rem 5rem 5rem;
+    width: fit-content;
+  }
+
+  .container {
+    width: fit-content;
+  }
+}
