@@ -1,0 +1,64 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+h1:first-child {
+  font-weight: 200;
+}
+
+h1:last-child {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.karma,
+.calculator,
+.supervisor,
+.team-builder {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  height: fit-content;
+}
+
+img {
+  margin-top: 2rem;
+}
+
+.karma {
+  margin-top: 0.56rem;
+}
+
+p {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+@media (max-width: 750px) {
+  body {
+    margin: 2rem;
+    margin-bottom: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  .card-one,
+  .card-two,
+  .card-three {
+    margin-bottom: 0.75rem;
+  }
+}

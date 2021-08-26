@@ -1,0 +1,64 @@
+body {
+  margin-top: 0px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.SUV {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 200px;
+}
+.Luxury,
+.sedans,
+.SUV {
+  padding: 25px 10px;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-transform: uppercase;
+}
+p {
+  padding: 15px;
+}
+
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+    top: 2rem;
+  }
+
+  body {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 3rem 3rem 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .sedans {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .Luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
