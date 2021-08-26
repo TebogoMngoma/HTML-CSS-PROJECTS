@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/Assets/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-size: 1.3rem;
+}
+
+.left img {
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.a {
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+span {
+  color: rgb(87, 110, 87);
+  text-decoration: underline;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 12px;
+  color: white;
+  background-color: rgb(87, 110, 87);
+  width: 100%;
+  border-style: none;
+}
+
+.check {
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.check p {
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 5rem;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+.left {
+  background-color: rgb(87, 110, 87);
+  color: white;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.right {
+  background-color: white;
+  padding: 1.4rem;
+  border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 700px) {
+  main {
+    display: unset;
+    padding-top: unset;
+  }
+  .left,
+  .right {
+    width: 100%;
+    padding-top: unset;
+  }
+  h2 {
+    margin-top: 0;
+    padding: 1.5rem;
+  }
+  h2,
+  h3,
+  p {
+    font-size: 2rem;
+  }
+  .left p {
+    padding: 0 1.5rem;
+  }
+
+  .right {
+    padding: unset;
+    border-radius: unset;
+  }
+  .left {
+    border-radius: unset;
+  }
+  .c {
+    padding: 2rem;
+  }
+  button {
+    padding: 2rem 0;
+  }
+}

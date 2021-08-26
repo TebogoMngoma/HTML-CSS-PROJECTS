@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.header-logo {
+  padding: 2rem 3rem;
+}
+
+.image {
+  width: 100%;
+}
+.screen-mockups {
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.main-first {
+  padding-top: 6rem;
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.main-second,
+.main-third,
+.main-forth {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.img,
+.txt {
+  width: 50%;
+}
+
+.txt {
+  padding: 3rem;
+}
+
+.main-bottom {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.header-button {
+  float: right;
+  background-color: white;
+  border: 2px solid hsl(322, 100%, 66%);
+  padding: 0.75rem;
+  border-radius: 20px;
+  color: hsl(322, 100%, 66%);
+}
+
+.header-text {
+  text-align: center;
+  margin: 0 5rem;
+}
+.header-text-button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-style: none;
+  padding: 0.75rem;
+  border-radius: 20px;
+}
+footer {
+  margin-top: 8rem;
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.phone,
+.email {
+  display: flex;
+}
+
+.left,
+.right {
+  padding: 4rem;
+}
+
+.footer-subscribe {
+  border-style: none;
+  border-radius: 23px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 0.69rem;
+}
+
+@media (max-width: 760px) {
+  .main-first,
+  .main-second,
+  .main-third,
+  .main-forth,
+  footer {
+    flex-direction: column;
+  }
+
+  .main-second,
+  .main-third,
+  .main-forth {
+    width: 100%;
+  }
+
+  body {
+    font-size: 1.1rem;
+  }
+
+  main {
+    margin: 0 1rem;
+  }
+
+  .header-text {
+    margin: 0 1.69rem;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .left,
+  .right {
+    padding: 1.4rem;
+  }
+
+  .right {
+    margin: 4rem 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .img {
+    width: 90%;
+  }
+
+  .main-second,
+  .main-forth {
+    flex-direction: column-reverse;
+  }
+
+  .txt {
+    padding: 0;
+    width: 90%;
+    text-align: center;
+  }
+
+  .communities-formed img,
+  .messages-sent img {
+    width: 30%;
+  }
+
+  .header-logo {
+    padding: 1.3;
+    margin-bottom: 2rem;
+  }
+}

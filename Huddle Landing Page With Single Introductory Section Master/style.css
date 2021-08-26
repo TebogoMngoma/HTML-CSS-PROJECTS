@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0%;
+  background-color: hsl(257, 40%, 49%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+  background-color: hsl(300, 69%, 71%);
+  padding: 0.75rem;
+  border-style: none;
+  border-radius: 25px;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(300, 69%, 71%);
+}
+
+h1,
+p {
+  color: white;
+}
+
+.container {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.text {
+  padding: 3rem;
+}
+
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .illustration {
+    width: 100%;
+  }
+
+  button {
+    width: 75%;
+  }
+
+  body {
+    width: fit-content;
+    padding: 0 1rem 10rem 1rem;
+    margin-bottom: 5rem;
+  }
+  .text {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 751px) {
+  body {
+    margin-bottom: 50rem;
+    padding: 3rem;
+  }
+}

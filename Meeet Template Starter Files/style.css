@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(7, 83, 83);
+}
+
+h1 {
+  font-size: 8rem;
+  color: aqua;
+}
+
+p,
+button {
+  font-size: 2rem;
+}
+
+p {
+  color: rgb(221, 221, 221);
+}
+
+main {
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.twitter {
+  display: flex;
+}
+
+.twitter img {
+  padding-right: 1.1rem;
+}
+
+.a1 {
+  position: absolute;
+  right: 20rem;
+  top: 2rem;
+}
+.a2 {
+  position: absolute;
+  left: 35rem;
+  bottom: -1rem;
+}
+.a3 {
+  position: absolute;
+  top: 4rem;
+  left: 0.3rem;
+}
+.a4 {
+  position: absolute;
+  right: 10rem;
+  top: 17rem;
+}
+.a5 {
+  position: absolute;
+  top: 24rem;
+  left: 40rem;
+}
+
+button {
+  background-color: aqua;
+  color: rgb(7, 83, 83);
+  padding: 1.1rem;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+button:hover {
+  background-color: white;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p,
+  button {
+    font-size: 1.1rem;
+  }
+
+  .a1,
+  .a2,
+  .a3,
+  .a4,
+  .a5 {
+    display: none;
+  }
+  main {
+    margin: 2rem auto 0 auto;
+  }
+}
